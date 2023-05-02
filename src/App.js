@@ -16,9 +16,6 @@ function App() {
 
   return (
     <div className="App">
-      <header>
-        <button> Üyeler </button>
-      </header>
       <Data takimUyeleri={takimUyeleri} setTakimUyeleri={setTakimUyeleri} duzenlenecekUye={duzenlenecekUye} setDuzenlenecekUye={setDuzenlenecekUye} />
       <div>
         {takimUyeleri.map((uyeler, index) => (
