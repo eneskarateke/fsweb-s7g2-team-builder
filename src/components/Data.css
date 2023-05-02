@@ -1,0 +1,67 @@
+.Form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-content: center;
+  }
+  
+  .FormGroup {
+    margin-bottom: 1rem;
+  }
+  
+  .Label {
+    display: flex;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .Input {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .Input:focus {
+    outline: 0;
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .Input:hover {
+    border-color: #b3b3b3;
+  }
+  
+  .Button {
+    display: block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 0.25rem;
+    color: #fff;
+  }
+
+
+  .Button:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  .Button:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  }
+  
